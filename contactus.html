@@ -1,0 +1,50 @@
+<html>
+    <head><title>Contact</title></head>
+    <body bgcolor="black" text="white" >
+        <h1 align="center" style="padding: 25px 25px 1px; color: rgb(190, 212, 108);">BOOK YOUR HOTEL HERE</h1><hr>
+            <div style="text-align: right; font-size: large;background-color: rgb(134, 202, 202);color: black;padding: 15px 5px ;">
+                <a href="html.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="places.html">PLACES</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="hotels.html">HOTELS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="contactus.html">CONTACT US </a>&nbsp;&nbsp;
+              </div><hr><CENTER>
+                  <h3>PLEASE FILL THE DETAILS BELOW</h3><BR>
+        <form action="Submit.html">
+            Name: <input type="text" placeholder="Type your name" required/><br /><br />
+            GENDER : 
+                <input type="radio" value="male" name="gender" > Male 
+                 <input type="radio" value="female" name="gender" > Female<BR><br>
+            CHECKIN:<input type="date" > &nbsp;&nbsp; CHECKOUT:<input type="date" >&nbsp;<br><br >
+            Email address: <input type="email" placeholder="Enter your Email" required/><br><br>
+            Number of guests <input type="number">
+            
+            
+             <hr>
+            PAYMENT VIA: <input type="text" list="payment" />
+                  <datalist id="payment">
+                      <option value="Credit Card"  />
+                      <option value="Debit Card" />
+                      <option value="UPI" />
+                      <option value="On Arrival" />
+                  </datalist>
+                  <br /><hr>
+            HOTEL: 
+                  <select>
+                      <option>Hotel Mayura Valley View Madikeri</option>
+                      <option>Lali Petals</option>
+                      <option>Woodstock Resorts</option>
+                  </select><br /><br />
+            FACILITIES:
+                  Breakfast Needed  <input type="checkbox" value="break"  /> 
+                  Barbeque Facilities    <input type="checkbox" value="bbq"  />
+                  Cycling      <input type="checkbox" value="cycle"  />
+                  <br>
+                  <HR>
+                <textarea rows="8" cols="50" placeholder="Any Recommendations??"></textarea><hr>
+            
+                <input type="reset" value="CLEAR">
+                <input type="submit" value="Submit" >
+            </CENTER>
+        </form>
+    </body>
+</html>
